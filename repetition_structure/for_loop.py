@@ -1,46 +1,47 @@
+"""
+For loop
 
-# Loop for
+Loop -> Repetition structure.
+For -> One of the repetition structures
 
-# Loop -> Estrutura de repetição.
-# For -> Uma das estruturas de repetição
+C or Java
 
-#C ou Java
+for(int i = 0; i < limit; i++) {
+    //loop execution
+}
 
-# for(int i = 0; i < limit; i++) {
-#     //execução do loop
-# }
+Python
 
-#Python
+for i in iterable:
+    //loop execution
 
-# for i in interavel:
-#     //execução do loop
+We use loops to iterate over sequences or over iterable values
 
-# Utilizamos loops para iterar sobre sequências ou sobre valores interáveis
+Examples of iterables:
+- String
+nanme = "Python Course"
+- List
+list = [1, 3, 5, 7, 9]
+- Range
+num = range(1, 10)
+"""
 
-# Exemplos de interáveis:
-# - String
-#     nanme = "Curso Python"
-# - List
-#     list = [1, 3, 5, 7, 9]
-# - Range
-#     num = range(1, 10)
-
-# Exemplos iterando em uma String
+# Examples iterating over a String
 for i in name:
     print(i)
 
-# Exemplos iterando em uma Lista
+# Examples iterating over a List
 for number in list:
     print(number)
 
-# Exemplos iterando em uma Range
+# Examples iterating over a Range
 for number in num:
     print(number)
 
-# Exemplos for
+# Examples for
 name = "Curso Python"
 list = [1, 3, 5, 7, 9]
-num = range(1, 10) # Transformar em lista
+num = range(1, 10) # Transform to list
 
 for i, v in enumerate(name):
     print(name[i])
@@ -51,14 +52,14 @@ for i, v in enumerate(name):
 for _, v in enumerate(name):
     print(v)
 
-qnt = int(input("Quantas vezes esse loop deve rodar? "))
+qnt = int(input("How many times should this loop run? "))
 
-soma = 0
+sum = 0
 
 for n in range(1, qnt + 1):
-    num = int(input(f"Informe o {n}/{qnt} valor: "))
-    soma = soma + num
-print(f"A soma é {soma}")
+    num = int(input(f"Inform the {n}/{qnt} value: "))
+    sum = sum + num
+print(f"The sum is {soma}")
 
 name = "Curso Python"
 for i in name:

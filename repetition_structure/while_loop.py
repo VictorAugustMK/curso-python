@@ -1,29 +1,29 @@
+"""
+While Loop
 
-# Loop While
+General form
 
-# Forma geral
+while boolean_expression:
+    //loop execution
 
-# while expressão_booleana:
-#     //execução do loop
+The while block will be repeated while the boolean expression is true.
 
-# O bloco while será repetido enquanto a expressão booleana for verdadeira.
-
-# Expressão booleana é toda expressão onde o reseultado e verdadeiro ou falso.
-
-# Exemplo:
+A boolean expression is any expression where the result is true or false.
+"""
+# Example:
 
 num = 5
 num < 5 (False)
 num < 10 (True)
 
-# Exemplo 1
+# Example 1
 num = 1
 while num < 10:
     print(num)
     num = num + 1
-# OBS: Em um loop while, é importante que cuidamos do critério de parada para não causar loop infinito.
+# NOTE: In a while loop, it is important that we take care of the stopping criteria to avoid causing an infinite loop.
 
-# Exemplo 2
+# Example 2
 answord = ""
 while answord != "yes":
     answord = input(f"It's over?\n")
